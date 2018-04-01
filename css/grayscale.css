@@ -314,7 +314,7 @@ img::-moz-selection {
 @media screen and (max-width: 1400px) {
   .column {
     flex: 50%;
-    max-width: 40%;
+    max-width: 440px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -324,9 +324,13 @@ img::-moz-selection {
 @media screen and (max-width: 991px) {
   .column {
     flex: 100%;
-    max-width: 80%;
+    max-width: 440px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .post a {
+    font-size: 13px;
   }
 }
 
@@ -337,6 +341,5 @@ img::-moz-selection {
 
 .post a {
   padding-left: 30px;
-  padding-right: 20px;
   display: block;
 }
